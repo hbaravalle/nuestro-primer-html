@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background: #eaeaea;
+  font-family: Arial;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main {
+  position: relative;
+  max-width: 650px;
+  background: #fff;
+  padding: 40px;
+  margin: 40px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.14), 0 15px 12px rgba(0,0,0,0.06);
+}
+
+main::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: -25px;
+  top: -25px;
+  background-image: url('../img/medal.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 200px;
+}
